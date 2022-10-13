@@ -86,8 +86,10 @@
 	var carousel = function() {
 		$('.home-slider').owlCarousel({
 	    loop:true,
-	    autoplay: true,
+	    autoplay: false,
 	    margin:0,
+			mouseDrag: false,
+			touchDrag: false,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
 	    nav:false,
